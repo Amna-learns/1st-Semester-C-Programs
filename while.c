@@ -1,0 +1,12 @@
+#include<stdio.h> // a program to print numbers from 0 to n by using while loop.
+int main() {
+    int n;
+    printf("enter the number");
+    scanf("%d", &n);
+    int i=0;
+    while(i <= n) {
+    printf("%d\n", i);
+    i++;
+    }
+    return 0;
+}
